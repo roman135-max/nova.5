@@ -1,0 +1,19 @@
+{
+  "_instrucciones": {
+    "info": "Archivo de links de respaldo para NOVA. Se usa si VidSrc falla.",
+    "formato_movie": "El ID es el ID de TMDB de la película. Ejemplo: Inception = 27205",
+    "formato_tv": "El ID es el ID de TMDB de la serie. Para series el link debería ser del episodio específico o del embed de la serie.",
+    "como_encontrar_id": "Busca la pelicula en https://www.themoviedb.org y el ID está en la URL. Ej: themoviedb.org/movie/27205 → ID es 27205",
+    "tipos_de_link": "Puede ser un link directo .mp4, o un embed de otro reproductor"
+  },
+
+  "movie": {
+    "27205": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "TMDB_ID_AQUI": "https://tu-link-directo.com/pelicula.mp4"
+  },
+
+  "tv": {
+    "1396": "https://vidsrc.to/embed/tv/1396/1/1",
+    "TMDB_ID_AQUI": "https://tu-link-directo.com/serie-s1e1.mp4"
+  }
+}
